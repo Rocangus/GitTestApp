@@ -21,6 +21,7 @@ namespace GitTestApp.Controllers
         public IActionResult Index()
         {
             return View();
+            Console.Write("Hello");
         }
 
         public IActionResult Privacy()
